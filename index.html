@@ -15,7 +15,15 @@
 <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js">
 
 </script>
+<!--core react file-->
 <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
 
+</script>
+<!--react dom is used for dom operations. dom is a bridge between react and browsers-->
+
+<script>
+    const heading = React.createElement("h1", {}, "Hello from React");
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
 </script>
     
